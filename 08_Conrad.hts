@@ -1,0 +1,172 @@
+<HtermSequenceFile>
+    <ItemList>
+        <SequenceItem name="CMD 1 - SETUP (Initialisierung)">
+            <description></description>
+            <sequence value="d[1] d[1] d[1] d[1]" />
+        </SequenceItem>
+        <SequenceItem name="-----">
+            <description></description>
+            <sequence value="" />
+        </SequenceItem>
+        <SequenceItem name="CMD 2 - GET PORT (Schaltzustaende abfragen)">
+            <description></description>
+            <sequence value="d[2] d[1] d[1] d[2]" />
+        </SequenceItem>
+        <SequenceItem name="-----">
+            <description></description>
+            <sequence value="" />
+        </SequenceItem>
+        <SequenceItem name="CMD 3 - nur Relais 1 EIN, alle anderen AUS (SET PORT - Relais schalten)">
+            <description></description>
+            <sequence value="d[3] d[1] d[1] d[3]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 3 - nur Relais 2 EIN, alle anderen AUS (SET PORT - Relais schalten)">
+            <description></description>
+            <sequence value="d[3] d[1] d[2] d[0]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 3 - nur Relais 3 EIN, alle anderen AUS (SET PORT - Relais schalten)">
+            <description></description>
+            <sequence value="d[3] d[1] d[4] d[6]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 3 - nur Relais 4 EIN, alle anderen AUS (SET PORT - Relais schalten)">
+            <description></description>
+            <sequence value="d[3] d[1] d[8] d[10]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 3 - nur Relais 5 EIN, alle anderen AUS (SET PORT - Relais schalten)">
+            <description></description>
+            <sequence value="d[3] d[1] d[16] d[18]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 3 - nur Relais 6 EIN, alle anderen AUS (SET PORT - Relais schalten)">
+            <description></description>
+            <sequence value="d[3] d[1] d[32] d[34]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 3 - nur Relais 7 EIN, alle anderen AUS (SET PORT - Relais schalten)">
+            <description></description>
+            <sequence value="d[3] d[1] d[64] d[66]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 3 - nur Relais 8 EIN, alle anderen AUS (SET PORT - Relais schalten)">
+            <description></description>
+            <sequence value="d[3] d[1] d[128] d[130]" />
+        </SequenceItem>
+        <SequenceItem name="-----">
+            <description></description>
+            <sequence value="" />
+        </SequenceItem>
+        <SequenceItem name="CMD 6 - Relais 1 EIN, alle anderen unveraendert (SET SINGLE - Relais einschalten ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[6] d[1] d[1] d[6]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 6 - Relais 2  EIN, alle anderen unveraendert (SET SINGLE - Relais einschalten ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[6] d[1] d[2] d[5]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 6 - Relais 3  EIN, alle anderen unveraendert (SET SINGLE - Relais einschalten ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[6] d[1] d[4] d[3]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 6 - Relais 4  EIN, alle anderen unveraendert (SET SINGLE - Relais einschalten ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[6] d[1] d[8] d[15]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 6 - Relais 5  EIN, alle anderen unveraendert (SET SINGLE - Relais einschalten ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[6] d[1] d[16] d[23]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 6 - Relais 6  EIN, alle anderen unveraendert (SET SINGLE - Relais einschalten ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[6] d[1] d[32] d[39]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 6 - Relais 7  EIN, alle anderen unveraendert (SET SINGLE - Relais einschalten ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[6] d[1] d[64] d[71]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 6 - Relais 8  EIN, alle anderen unveraendert (SET SINGLE - Relais einschalten ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[6] d[1] d[128] d[135]" />
+        </SequenceItem>
+        <SequenceItem name="-----">
+            <description></description>
+            <sequence value="" />
+        </SequenceItem>
+        <SequenceItem name="CMD 7 - Relais 1 AUS, alle anderen unveraendert (DEL SINGLE - Relais ausschalten ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[7] d[1] d[1] d[7]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 7 - Relais 2 AUS, alle anderen unveraendert (DEL SINGLE - Relais ausschalten ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[7] d[1] d[2] d[4]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 7 - Relais 3 AUS, alle anderen unveraendert (DEL SINGLE - Relais ausschalten ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[7] d[1] d[4] d[2]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 7 - Relais 4 AUS, alle anderen unveraendert (DEL SINGLE - Relais ausschalten ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[7] d[1] d[8] d[14]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 7 - Relais 5 AUS, alle anderen unveraendert (DEL SINGLE - Relais ausschalten ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[7] d[1] d[16] d[22]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 7 - Relais 6 AUS, alle anderen unveraendert (DEL SINGLE - Relais ausschalten ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[7] d[1] d[32] d[38]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 7 - Relais 7 AUS, alle anderen unveraendert (DEL SINGLE - Relais ausschalten ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[7] d[1] d[64] d[70]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 7 - Relais 8 AUS, alle anderen unveraendert (DEL SINGLE - Relais ausschalten ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[7] d[1] d[128] d[134]" />
+        </SequenceItem>
+        <SequenceItem name="-----">
+            <description></description>
+            <sequence value="" />
+        </SequenceItem>
+        <SequenceItem name="CMD 8 - Relais 1 umschalten, alle anderen unveraendert (TOGGLE - Wechseln des Schaltzustands ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[8] d[1] d[1] d[8]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 8 - Relais 2 umschalten, alle anderen unveraendert (TOGGLE - Wechseln des Schaltzustands ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[8] d[1] d[2] d[11]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 8 - Relais 3 umschalten, alle anderen unveraendert (TOGGLE - Wechseln des Schaltzustands ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[8] d[1] d[4] d[13]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 8 - Relais 4 umschalten, alle anderen unveraendert (TOGGLE - Wechseln des Schaltzustands ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[8] d[1] d[8] d[1]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 8 - Relais 5 umschalten, alle anderen unveraendert (TOGGLE - Wechseln des Schaltzustands ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[8] d[1] d[16] d[25]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 8 - Relais 6 umschalten, alle anderen unveraendert (TOGGLE - Wechseln des Schaltzustands ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[8] d[1] d[32] d[41]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 8 - Relais 7 umschalten, alle anderen unveraendert (TOGGLE - Wechseln des Schaltzustands ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[8] d[1] d[64] d[73]" />
+        </SequenceItem>
+        <SequenceItem name="CMD 8 - Relais 8 umschalten, alle anderen unveraendert (TOGGLE - Wechseln des Schaltzustands ohne Aenderung der restlichen Ausgaenge)">
+            <description></description>
+            <sequence value="d[8] d[1] d[128] d[137]" />
+        </SequenceItem>
+        <SequenceItem name="-----">
+            <description></description>
+            <sequence value="" />
+        </SequenceItem>
+        <SequenceItem name="Alle EIN">
+            <description></description>
+            <sequence value="d[3] d[1] d[255] d[253]" />
+        </SequenceItem>
+        <SequenceItem name="Alle AUS">
+            <description></description>
+            <sequence value="d[3] d[1] d[0] d[2]" />
+        </SequenceItem>
+    </ItemList>
+</HtermSequenceFile>
